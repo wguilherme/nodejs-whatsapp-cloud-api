@@ -1,0 +1,9 @@
+curl -X POST \
+  'https://graph.facebook.com/v13.0/FROM_PHONE_NUMBER_ID/messages' \
+  -H "Authorization: ACCESS_TOKEN" \
+  -d '{
+    "messaging_product": "whatsapp",
+    "to": "5522996142551",
+    "text": {"body" : "Oi. Essa mensagem foi enviada via API do WhatsApp Cloud API"}
+   }'
+   

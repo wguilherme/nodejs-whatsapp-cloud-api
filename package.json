@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-whatsapp-cloud-api",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "repository": "https://github.com/wguilherme/nodejs-whatsapp-cloud-api.git",
+  "author": "Withney Guilherme <wguilhermecriativo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1"
+  }
+}
