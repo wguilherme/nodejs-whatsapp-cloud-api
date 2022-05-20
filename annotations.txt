@@ -1,3 +1,9 @@
+references:
+https://developers.facebook.com/docs/whatsapp/cloud-api/get-started#
+https://www.facebook.com/business/help/456220311516626?id=2129163877102343
+https://developers.facebook.com/docs/whatsapp/conversation-types
+
+
 curl -X POST \
   'https://graph.facebook.com/v13.0/FROM_PHONE_NUMBER_ID/messages' \
   -H "Authorization: ACCESS_TOKEN" \
